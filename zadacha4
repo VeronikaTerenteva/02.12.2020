@@ -1,0 +1,17 @@
+#Задача 4
+print('Введите число a')
+a = int(input())
+print('Введите степень')
+b = int(input())
+d = 1
+if b>0:
+  while b!=0:
+    d = d*a
+    b = b-1
+elif b==00:
+  d=1
+else:
+  while b!=0:
+    d = d/a
+    b = b+1
+print(d)
