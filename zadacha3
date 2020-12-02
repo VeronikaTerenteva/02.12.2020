@@ -1,0 +1,18 @@
+#Задача 3
+print('Введите число a')
+a = int(input())
+print('Введите число b')
+b = int(input())
+c = 0
+if b < 0:
+  while c!=b:
+    a = a-1
+    c = c-1
+  print(a)
+elif b>0:
+  while c!=b:
+    a = a+1
+    c = c+1
+  print(a)
+elif b==0:
+  print(a)
