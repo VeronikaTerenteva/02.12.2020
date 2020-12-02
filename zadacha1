@@ -1,0 +1,10 @@
+#Задача 1
+print('Введите число a')
+a = int(input())
+print('Введите число b')
+b = int(input())
+print('Введите число c')
+c = int(input())
+print('Введите число d')
+d = int(input())
+print(min(min(a, b), min(c, d)))
